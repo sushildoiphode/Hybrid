@@ -1,0 +1,88 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-10-14T15:56:04.879Z",
+        "before": [
+          {
+            "result": {
+              "duration": 99557000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.ijmeet.stepdefinitions.SignUpSteps.openSetup()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Check login is successfully with valid credentials",
+        "description": "",
+        "id": "fealure-to-test-login-functionality;check-login-is-successfully-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on login page",
+            "match": {
+              "location": "com.ijmeet.stepdefinitions.LoginStep.openLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enter username and password",
+            "match": {
+              "location": "com.ijmeet.stepdefinitions.LoginStep.enterCredentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on login button",
+            "match": {
+              "location": "com.ijmeet.stepdefinitions.LoginStep.clickOnLoginBtn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is navigate to the homepage",
+            "match": {
+              "location": "com.ijmeet.stepdefinitions.LoginStep.backToHomePage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Fealure to test login functionality",
+    "description": "",
+    "id": "fealure-to-test-login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Feature.feature",
+    "tags": []
+  }
+]
